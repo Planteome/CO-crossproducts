@@ -79,6 +79,25 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Linoleic acid content of the seed oil i.e., linoleic acid weight per total oil weight of the seed" .
 
+<http://purl.obolibrary.org/obo/EO_0007373>
+        rdfs:label  "mechanical damage"^^xsd:string .
+
+<http://www.cropontology.org/rdf#CO_341:0000141>
+        a                    owl:Class ;
+        rdfs:label           "Pod length" ;
+        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
+        owl:equivalentClass  [ a                   owl:Class ;
+                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0009001> ;
+                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
+                                                                                                   ] [ a                  owl:Restriction ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000122> ;
+                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
+                                                                                                     ] )
+                             ] ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Pod length" .
+
 <http://www.cropontology.org/rdf#CO_340:0000575>
         a                    owl:Class ;
         rdfs:label           "Grain protein content" ;
@@ -98,21 +117,24 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Protein content of the grain" .
 
-<http://www.cropontology.org/rdf#CO_341:0000141>
+<http://www.cropontology.org/rdf#CO_338:0000057>
         a                    owl:Class ;
-        rdfs:label           "Pod length" ;
+        rdfs:label           "Cold tolerance" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
                                owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
-                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0009001> ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0000003> ;
                                                                                                      owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
                                                                                                    ] [ a                  owl:Restriction ;
-                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000122> ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000515> ;
                                                                                                        owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
-                                                                                                     ] )
+                                                                                                     ] [ a                  owl:Restriction ;
+                                                                                                         owl:allValuesFrom  <http://purl.obolibrary.org/obo/EO_0007174> ;
+                                                                                                         owl:onProperty     <http://www.cropontology.org/rdf#stressor>
+                                                                                                       ] )
                              ] ;
         <http://www.w3.org/2004/02/skos/core#definition>
-                "Pod length" .
+                "Degree of tolerance to cold" .
 
 <http://www.cropontology.org/rdf#CO_321:0000025>
         a                    owl:Class ;
@@ -202,6 +224,28 @@
                              ] ;
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Petiole color" .
+
+<http://www.cropontology.org/rdf#CO_321:0000678>
+        a                    owl:Class ;
+        rdfs:label           "Boron tolerance" ;
+        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
+        owl:equivalentClass  [ a                   owl:Class ;
+                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0000003> ;
+                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
+                                                                                                   ] [ a                  owl:Restriction ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000515> ;
+                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
+                                                                                                     ] [ a                  owl:Restriction ;
+                                                                                                         owl:allValuesFrom  <http://purl.obolibrary.org/obo/EO_0007273> ;
+                                                                                                         owl:onProperty     <http://www.cropontology.org/rdf#stressor>
+                                                                                                       ] )
+                             ] ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "An assessment of the plants tolerance to high levels of soil boron." .
+
+<http://purl.obolibrary.org/obo/EO_0007306>
+        rdfs:label  "aluminum nutrient regimen"^^xsd:string .
 
 <http://purl.obolibrary.org/obo/PATO_0000140>
         rdfs:label  "position"^^xsd:string .
@@ -332,6 +376,25 @@
                              ] ;
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Color of the flower" .
+
+<http://www.cropontology.org/rdf#CO_321:0000126>
+        a                    owl:Class ;
+        rdfs:label           "Hail damage" ;
+        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
+        owl:equivalentClass  [ a                   owl:Class ;
+                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0000003> ;
+                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
+                                                                                                   ] [ a                  owl:Restriction ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0001020> ;
+                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
+                                                                                                     ] [ a                  owl:Restriction ;
+                                                                                                         owl:allValuesFrom  <http://purl.obolibrary.org/obo/EO_0007373> ;
+                                                                                                         owl:onProperty     <http://www.cropontology.org/rdf#stressor>
+                                                                                                       ] )
+                             ] ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "An assessment of the plant damage caused by hail." .
 
 <http://www.cropontology.org/rdf#CO_338:0000060>
         a                    owl:Class ;
@@ -590,6 +653,9 @@
 <http://purl.obolibrary.org/obo/CHEBI_16811>
         rdfs:label  "methionine"^^xsd:string .
 
+<http://purl.obolibrary.org/obo/EO_0007183>
+        rdfs:label  "herbicide treatment"^^xsd:string .
+
 <http://www.cropontology.org/rdf#occurs_in>
         a       owl:TransitiveProperty , rdf:Property .
 
@@ -710,6 +776,9 @@
                              ] ;
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Color of stem epidermis" .
+
+<http://purl.obolibrary.org/obo/EO_0007049>
+        rdfs:label  "soil environment"^^xsd:string .
 
 <http://www.cropontology.org/rdf#CO_321:0000222>
         a                    owl:Class ;
@@ -857,6 +926,44 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Length of the main culm (stem), defined as the distance from the soil surface to the base of the panicle " .
 
+<http://www.cropontology.org/rdf#CO_339:0000075>
+        a                    owl:Class ;
+        rdfs:label           "Heat tolerance" ;
+        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
+        owl:equivalentClass  [ a                   owl:Class ;
+                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0000003> ;
+                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
+                                                                                                   ] [ a                  owl:Restriction ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000515> ;
+                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
+                                                                                                     ] [ a                  owl:Restriction ;
+                                                                                                         owl:allValuesFrom  <http://purl.obolibrary.org/obo/EO_0007173> ;
+                                                                                                         owl:onProperty     <http://www.cropontology.org/rdf#stressor>
+                                                                                                       ] )
+                             ] ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Degree of tolerance to high temperature" .
+
+<http://www.cropontology.org/rdf#CO_321:0000176>
+        a                    owl:Class ;
+        rdfs:label           "Heat tolerance" ;
+        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
+        owl:equivalentClass  [ a                   owl:Class ;
+                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0000003> ;
+                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
+                                                                                                   ] [ a                  owl:Restriction ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000515> ;
+                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
+                                                                                                     ] [ a                  owl:Restriction ;
+                                                                                                         owl:allValuesFrom  <http://purl.obolibrary.org/obo/EO_0007173> ;
+                                                                                                         owl:onProperty     <http://www.cropontology.org/rdf#stressor>
+                                                                                                       ] )
+                             ] ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "An assessment of the plants tolerance to heat conditions." .
+
 <http://www.cropontology.org/rdf#CO_320:0000110>
         a                    owl:Class ;
         rdfs:label           "caryopsis length" ;
@@ -872,6 +979,9 @@
                              ] ;
         <http://www.w3.org/2004/02/skos/core#definition>
                 "The length of the caryopsis, ie the seed with seed coat fused to pericarp, which is the structure that remains after dehulling  (decorticating) the grain and before milling, commonly known as brown rice" .
+
+<http://purl.obolibrary.org/obo/PATO_0000515>
+        rdfs:label  "tolerant to"^^xsd:string .
 
 <http://www.cropontology.org/rdf#CO_337:0000064>
         a                    owl:Class ;
@@ -1080,6 +1190,25 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Amylose content" .
 
+<http://www.cropontology.org/rdf#CO_339:0000189>
+        a                    owl:Class ;
+        rdfs:label           "Water logging tolerance" ;
+        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
+        owl:equivalentClass  [ a                   owl:Class ;
+                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0000003> ;
+                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
+                                                                                                   ] [ a                  owl:Restriction ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000515> ;
+                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
+                                                                                                     ] [ a                  owl:Restriction ;
+                                                                                                         owl:allValuesFrom  <http://purl.obolibrary.org/obo/EO_0007198> ;
+                                                                                                         owl:onProperty     <http://www.cropontology.org/rdf#stressor>
+                                                                                                       ] )
+                             ] ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Degree of tolerance to waterlogging condition" .
+
 <http://purl.obolibrary.org/obo/CHEBI_28017>
         rdfs:label  "starch"^^xsd:string .
 
@@ -1210,6 +1339,9 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Proportions that indicate chlorophyll density and/or leaf thickness measured through a SPAD chlorophyll meter." .
 
+<http://purl.obolibrary.org/obo/PATO_0000085>
+        rdfs:label  "sensitivity toward"^^xsd:string .
+
 <http://www.cropontology.org/rdf#CO_320:0000152>
         a                    owl:Class ;
         rdfs:label           "panicle shattering" ;
@@ -1325,22 +1457,6 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Average width of seeds" .
 
-<http://www.cropontology.org/rdf#CO_320:0000005>
-        a                    owl:Class ;
-        rdfs:label           "grain width" ;
-        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
-        owl:equivalentClass  [ a                   owl:Class ;
-                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
-                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0009001> ;
-                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
-                                                                                                   ] [ a                  owl:Restriction ;
-                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000921> ;
-                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
-                                                                                                     ] )
-                             ] ;
-        <http://www.w3.org/2004/02/skos/core#definition>
-                "Width of whole grain including the hull, defined as the distance across the fertile lemma and the palea at the widest point " .
-
 <http://www.cropontology.org/rdf#CO_336:0000066>
         a                    owl:Class ;
         rdfs:label           "Pod length" ;
@@ -1356,6 +1472,22 @@
                              ] ;
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Length of the pod from the calyx to the pod tip in cm or mm" .
+
+<http://www.cropontology.org/rdf#CO_320:0000005>
+        a                    owl:Class ;
+        rdfs:label           "grain width" ;
+        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
+        owl:equivalentClass  [ a                   owl:Class ;
+                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0009001> ;
+                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
+                                                                                                   ] [ a                  owl:Restriction ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000921> ;
+                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
+                                                                                                     ] )
+                             ] ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Width of whole grain including the hull, defined as the distance across the fertile lemma and the palea at the widest point " .
 
 <http://purl.obolibrary.org/obo/CHEBI_16196>
         rdfs:label  "oleic acid"^^xsd:string .
@@ -1379,6 +1511,25 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Stearic acid content of the seed oil i.e., stearic acid weight per total oil weight of the seed" .
 
+<http://www.cropontology.org/rdf#CO_338:0000072>
+        a                    owl:Class ;
+        rdfs:label           "Salinity tolerance" ;
+        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
+        owl:equivalentClass  [ a                   owl:Class ;
+                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0000003> ;
+                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
+                                                                                                   ] [ a                  owl:Restriction ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000515> ;
+                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
+                                                                                                     ] [ a                  owl:Restriction ;
+                                                                                                         owl:allValuesFrom  <http://purl.obolibrary.org/obo/EO_0007185> ;
+                                                                                                         owl:onProperty     <http://www.cropontology.org/rdf#stressor>
+                                                                                                       ] )
+                             ] ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Degree of tolerance to soil salinity" .
+
 <http://purl.obolibrary.org/obo/PO_0025034>
         rdfs:label  "leaf"^^xsd:string .
 
@@ -1400,6 +1551,12 @@
                              ] ;
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Assessment of grain size." .
+
+<http://www.cropontology.org/rdf#stressor>
+        a       owl:TransitiveProperty , rdf:Property .
+
+<http://purl.obolibrary.org/obo/EO_0007174>
+        rdfs:label  "cold temperature regimen"^^xsd:string .
 
 <http://purl.obolibrary.org/obo/PO_0020103>
         rdfs:label  "flag leaf"^^xsd:string .
@@ -1435,6 +1592,25 @@
                              ] ;
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Number of racemes" .
+
+<http://www.cropontology.org/rdf#CO_321:0000079>
+        a                    owl:Class ;
+        rdfs:label           "Aluminum tolerance" ;
+        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
+        owl:equivalentClass  [ a                   owl:Class ;
+                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0000003> ;
+                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
+                                                                                                   ] [ a                  owl:Restriction ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000515> ;
+                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
+                                                                                                     ] [ a                  owl:Restriction ;
+                                                                                                         owl:allValuesFrom  <http://purl.obolibrary.org/obo/EO_0007306> ;
+                                                                                                         owl:onProperty     <http://www.cropontology.org/rdf#stressor>
+                                                                                                       ] )
+                             ] ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "An assessment of the plants tolerance to aluminum." .
 
 <http://www.cropontology.org/rdf#CO_334:0000442>
         a                    owl:Class ;
@@ -1619,6 +1795,9 @@
 
 <http://purl.obolibrary.org/obo/PATO_0000274>
         rdfs:label  "fertility"^^xsd:string .
+
+<http://purl.obolibrary.org/obo/EO_0007035>
+        rdfs:label  "winter season"^^xsd:string .
 
 <http://www.cropontology.org/rdf#CO_334:0000476>
         a                    owl:Class ;
@@ -1903,22 +2082,6 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Yield of a soybean field in terms of seed weight per unit area at a specified moisture content." .
 
-<http://www.cropontology.org/rdf#CO_341:0000072>
-        a                    owl:Class ;
-        rdfs:label           "Plumule length" ;
-        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
-        owl:equivalentClass  [ a                   owl:Class ;
-                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
-                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0020032> ;
-                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
-                                                                                                   ] [ a                  owl:Restriction ;
-                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000122> ;
-                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
-                                                                                                     ] )
-                             ] ;
-        <http://www.w3.org/2004/02/skos/core#definition>
-                "Length of plumule" .
-
 <http://purl.obolibrary.org/obo/PO_0009047>
         rdfs:label  "stem"^^xsd:string .
 
@@ -1938,8 +2101,43 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Storage root length" .
 
+<http://www.cropontology.org/rdf#CO_341:0000072>
+        a                    owl:Class ;
+        rdfs:label           "Plumule length" ;
+        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
+        owl:equivalentClass  [ a                   owl:Class ;
+                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0020032> ;
+                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
+                                                                                                   ] [ a                  owl:Restriction ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000122> ;
+                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
+                                                                                                     ] )
+                             ] ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Length of plumule" .
+
 <http://purl.obolibrary.org/obo/PATO_0000050>
         rdfs:label  "life span"^^xsd:string .
+
+<http://www.cropontology.org/rdf#CO_339:0000162>
+        a                    owl:Class ;
+        rdfs:label           "Grain protein content" ;
+        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
+        owl:equivalentClass  [ a                   owl:Class ;
+                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0009001> ;
+                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
+                                                                                                   ] [ a                  owl:Restriction ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000025> ;
+                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
+                                                                                                     ] [ a                  owl:Restriction ;
+                                                                                                         owl:allValuesFrom  <http://purl.obolibrary.org/obo/CHEBI_36080> ;
+                                                                                                         owl:onProperty     <http://www.cropontology.org/rdf#attribute_of>
+                                                                                                       ] )
+                             ] ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Amount of protein in the seed" .
 
 <http://www.cropontology.org/rdf#CO_338:0000055>
         a                    owl:Class ;
@@ -1956,6 +2154,9 @@
                              ] ;
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Seed diameter of fully dried seed" .
+
+<http://purl.obolibrary.org/obo/EO_0007384>
+        rdfs:label  "freezing air temperature regimen"^^xsd:string .
 
 <http://www.cropontology.org/rdf#CO_320:0000156>
         a                    owl:Class ;
@@ -2184,6 +2385,9 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "The texture of the testa" .
 
+<http://purl.obolibrary.org/obo/PATO_0001020>
+        rdfs:label  "damage"^^xsd:string .
+
 <http://www.cropontology.org/rdf#CO_321:0000057>
         a                    owl:Class ;
         rdfs:label           "Spike shattering" ;
@@ -2216,6 +2420,9 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Average length of seeds" .
 
+<http://purl.obolibrary.org/obo/PATO_0001046>
+        rdfs:label  "resistance to"^^xsd:string .
+
 <http://www.cropontology.org/rdf#CO_320:0000004>
         a                    owl:Class ;
         rdfs:label           "grain length" ;
@@ -2231,6 +2438,25 @@
                              ] ;
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Length of whole grain including the hull, defined as the distance from the base of the lowermost sterile lemma to the tip (apiculus) of the fertile lemma or palea " .
+
+<http://www.cropontology.org/rdf#CO_336:0000078>
+        a                    owl:Class ;
+        rdfs:label           "Drought Tolerance" ;
+        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
+        owl:equivalentClass  [ a                   owl:Class ;
+                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0000003> ;
+                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
+                                                                                                   ] [ a                  owl:Restriction ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000515> ;
+                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
+                                                                                                     ] [ a                  owl:Restriction ;
+                                                                                                         owl:allValuesFrom  <http://purl.obolibrary.org/obo/EO_0007404> ;
+                                                                                                         owl:onProperty     <http://www.cropontology.org/rdf#stressor>
+                                                                                                       ] )
+                             ] ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Resistance to damage by water restriction." .
 
 <http://www.cropontology.org/rdf#CO_320:0000017>
         a                    owl:Class ;
@@ -2302,6 +2528,12 @@
 <http://purl.obolibrary.org/obo/PO_0005001>
         rdfs:label  "basal axillary shoot system"^^xsd:string .
 
+<http://purl.obolibrary.org/obo/PO_0000003>
+        rdfs:label  "whole plant"^^xsd:string .
+
+<http://purl.obolibrary.org/obo/EO_0007173>
+        rdfs:label  "warm/hot temperature regimen"^^xsd:string .
+
 <http://www.cropontology.org/rdf#CO_321:0000052>
         a                    owl:Class ;
         rdfs:label           "Peduncle length" ;
@@ -2336,6 +2568,25 @@
                              ] ;
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Weight of the seed" .
+
+<http://www.cropontology.org/rdf#CO_321:0000078>
+        a                    owl:Class ;
+        rdfs:label           "Acid soil tolerance" ;
+        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
+        owl:equivalentClass  [ a                   owl:Class ;
+                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0000003> ;
+                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
+                                                                                                   ] [ a                  owl:Restriction ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000515> ;
+                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
+                                                                                                     ] [ a                  owl:Restriction ;
+                                                                                                         owl:allValuesFrom  <http://purl.obolibrary.org/obo/EO_0007049> ;
+                                                                                                         owl:onProperty     <http://www.cropontology.org/rdf#stressor>
+                                                                                                       ] )
+                             ] ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "An assessment of the plants tolerance to acid soil." .
 
 <http://www.cropontology.org/rdf#CO_334:0000387>
         a                    owl:Class ;
@@ -2372,6 +2623,25 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "stem diameter" .
 
+<http://www.cropontology.org/rdf#CO_321:0000132>
+        a                    owl:Class ;
+        rdfs:label           "Salinity tolerance" ;
+        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
+        owl:equivalentClass  [ a                   owl:Class ;
+                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0000003> ;
+                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
+                                                                                                   ] [ a                  owl:Restriction ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000515> ;
+                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
+                                                                                                     ] [ a                  owl:Restriction ;
+                                                                                                         owl:allValuesFrom  <http://purl.obolibrary.org/obo/EO_0007185> ;
+                                                                                                         owl:onProperty     <http://www.cropontology.org/rdf#stressor>
+                                                                                                       ] )
+                             ] ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "An assessment of the plants tolerance to soil salinity." .
+
 <http://purl.obolibrary.org/obo/PO_0009084>
         rdfs:label  "pericarp"^^xsd:string .
 
@@ -2390,6 +2660,25 @@
                              ] ;
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Length of ligule, defined as distance from the base of the collar to the tip of the ligule " .
+
+<http://www.cropontology.org/rdf#CO_339:0000057>
+        a                    owl:Class ;
+        rdfs:label           "Drought tolerance" ;
+        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
+        owl:equivalentClass  [ a                   owl:Class ;
+                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0000003> ;
+                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
+                                                                                                   ] [ a                  owl:Restriction ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000515> ;
+                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
+                                                                                                     ] [ a                  owl:Restriction ;
+                                                                                                         owl:allValuesFrom  <http://purl.obolibrary.org/obo/EO_0007404> ;
+                                                                                                         owl:onProperty     <http://www.cropontology.org/rdf#stressor>
+                                                                                                       ] )
+                             ] ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Degree of tolerance to drought stress" .
 
 <http://purl.obolibrary.org/obo/PO_0025281>
         rdfs:label  "pollen"^^xsd:string .
@@ -2537,6 +2826,25 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Content of protein (corrected to 12.5% moisture basis) in the whole wheat grain samples." .
 
+<http://www.cropontology.org/rdf#CO_336:0000081>
+        a                    owl:Class ;
+        rdfs:label           "Herbicide sensitivity" ;
+        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
+        owl:equivalentClass  [ a                   owl:Class ;
+                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0000003> ;
+                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
+                                                                                                   ] [ a                  owl:Restriction ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000085> ;
+                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
+                                                                                                     ] [ a                  owl:Restriction ;
+                                                                                                         owl:allValuesFrom  <http://purl.obolibrary.org/obo/EO_0007183> ;
+                                                                                                         owl:onProperty     <http://www.cropontology.org/rdf#stressor>
+                                                                                                       ] )
+                             ] ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Reaction of the plant or plant part to herbicide exposure" .
+
 <http://www.cropontology.org/rdf#CO_320:0000033>
         a                    owl:Class ;
         rdfs:label           "panicle length" ;
@@ -2617,22 +2925,6 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Weight of seed per unit of area" .
 
-<http://www.cropontology.org/rdf#CO_340:0000708>
-        a                    owl:Class ;
-        rdfs:label           "Tap root diameter" ;
-        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
-        owl:equivalentClass  [ a                   owl:Class ;
-                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
-                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0009005> ;
-                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
-                                                                                                   ] [ a                  owl:Restriction ;
-                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0001334> ;
-                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
-                                                                                                     ] )
-                             ] ;
-        <http://www.w3.org/2004/02/skos/core#definition>
-                "tap root diameter" .
-
 <http://www.cropontology.org/rdf#CO_320:0000100>
         a                    owl:Class ;
         rdfs:label           "grain weight" ;
@@ -2648,6 +2940,22 @@
                              ] ;
         <http://www.w3.org/2004/02/skos/core#definition>
                 "The weight of a sample of whole grains including the hull " .
+
+<http://www.cropontology.org/rdf#CO_340:0000708>
+        a                    owl:Class ;
+        rdfs:label           "Tap root diameter" ;
+        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
+        owl:equivalentClass  [ a                   owl:Class ;
+                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0009005> ;
+                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
+                                                                                                   ] [ a                  owl:Restriction ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0001334> ;
+                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
+                                                                                                     ] )
+                             ] ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "tap root diameter" .
 
 <http://www.cropontology.org/rdf#CO_321:0000220>
         a                    owl:Class ;
@@ -2831,27 +3139,30 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Shoot potassium content from plants/subset of plants." .
 
+<http://www.cropontology.org/rdf#CO_339:0000153>
+        a                    owl:Class ;
+        rdfs:label           "Salinity tolerance" ;
+        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
+        owl:equivalentClass  [ a                   owl:Class ;
+                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0000003> ;
+                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
+                                                                                                   ] [ a                  owl:Restriction ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000515> ;
+                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
+                                                                                                     ] [ a                  owl:Restriction ;
+                                                                                                         owl:allValuesFrom  <http://purl.obolibrary.org/obo/EO_0007185> ;
+                                                                                                         owl:onProperty     <http://www.cropontology.org/rdf#stressor>
+                                                                                                       ] )
+                             ] ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Degree of tolerance to salinity" .
+
 <http://purl.obolibrary.org/obo/PATO_0001470>
         rdfs:label  "proportionality to"^^xsd:string .
 
 <http://purl.obolibrary.org/obo/PATO_0001230>
         rdfs:label  "strength"^^xsd:string .
-
-<http://www.cropontology.org/rdf#CO_321:0000641>
-        a                    owl:Class ;
-        rdfs:label           "Grain weight" ;
-        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
-        owl:equivalentClass  [ a                   owl:Class ;
-                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
-                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0009001> ;
-                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
-                                                                                                   ] [ a                  owl:Restriction ;
-                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000128> ;
-                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
-                                                                                                     ] )
-                             ] ;
-        <http://www.w3.org/2004/02/skos/core#definition>
-                "Grain weight usually expressed as weight of single, one hundred, two hundred or thousand grains." .
 
 <http://www.cropontology.org/rdf#CO_334:0000403>
         a                    owl:Class ;
@@ -2868,6 +3179,22 @@
                              ] ;
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Number of male flowers after the buds appear" .
+
+<http://www.cropontology.org/rdf#CO_321:0000641>
+        a                    owl:Class ;
+        rdfs:label           "Grain weight" ;
+        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
+        owl:equivalentClass  [ a                   owl:Class ;
+                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0009001> ;
+                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
+                                                                                                   ] [ a                  owl:Restriction ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000128> ;
+                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
+                                                                                                     ] )
+                             ] ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Grain weight usually expressed as weight of single, one hundred, two hundred or thousand grains." .
 
 <http://purl.obolibrary.org/obo/PATO_0001323>
         rdfs:label  "area"^^xsd:string .
@@ -2907,6 +3234,25 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Leaf shape" .
 
+<http://www.cropontology.org/rdf#CO_336:0000102>
+        a                    owl:Class ;
+        rdfs:label           "Heat stress resistance" ;
+        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
+        owl:equivalentClass  [ a                   owl:Class ;
+                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0000003> ;
+                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
+                                                                                                   ] [ a                  owl:Restriction ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0001046> ;
+                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
+                                                                                                     ] [ a                  owl:Restriction ;
+                                                                                                         owl:allValuesFrom  <http://purl.obolibrary.org/obo/EO_0007173> ;
+                                                                                                         owl:onProperty     <http://www.cropontology.org/rdf#stressor>
+                                                                                                       ] )
+                             ] ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Resistance of a plant or plant part to damage by higher than normal temperatures" .
+
 <http://www.cropontology.org/rdf#CO_334:0000429>
         a                    owl:Class ;
         rdfs:label           "Petiole length" ;
@@ -2942,8 +3288,30 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Diameter of basal portion of the main culm " .
 
+<http://www.cropontology.org/rdf#CO_338:0000067>
+        a                    owl:Class ;
+        rdfs:label           "High temperature tolerance" ;
+        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
+        owl:equivalentClass  [ a                   owl:Class ;
+                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0000003> ;
+                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
+                                                                                                   ] [ a                  owl:Restriction ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000515> ;
+                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
+                                                                                                     ] [ a                  owl:Restriction ;
+                                                                                                         owl:allValuesFrom  <http://purl.obolibrary.org/obo/EO_0007173> ;
+                                                                                                         owl:onProperty     <http://www.cropontology.org/rdf#stressor>
+                                                                                                       ] )
+                             ] ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Degree of tolerance to high temperature" .
+
 <http://purl.obolibrary.org/obo/PO_0025029>
         rdfs:label  "shoot axis"^^xsd:string .
+
+<http://purl.obolibrary.org/obo/EO_0007396>
+        rdfs:label  "flood prone region"^^xsd:string .
 
 <http://purl.obolibrary.org/obo/PO_0025349>
         rdfs:label  "awn"^^xsd:string .
@@ -2988,6 +3356,25 @@
 
 <http://purl.obolibrary.org/obo/PATO_0000070>
         rdfs:label  "amount"^^xsd:string .
+
+<http://www.cropontology.org/rdf#CO_321:0000128>
+        a                    owl:Class ;
+        rdfs:label           "Waterlogging damage" ;
+        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
+        owl:equivalentClass  [ a                   owl:Class ;
+                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0000003> ;
+                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
+                                                                                                   ] [ a                  owl:Restriction ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0001020> ;
+                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
+                                                                                                     ] [ a                  owl:Restriction ;
+                                                                                                         owl:allValuesFrom  <http://purl.obolibrary.org/obo/EO_0007373> ;
+                                                                                                         owl:onProperty     <http://www.cropontology.org/rdf#stressor>
+                                                                                                       ] )
+                             ] ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "An assessment of the plant damage caused by waterlogging." .
 
 <http://www.cropontology.org/rdf#CO_320:0000150>
         a                    owl:Class ;
@@ -3269,6 +3656,9 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "How easy it is to separate the seed from the shafts" .
 
+<http://purl.obolibrary.org/obo/EO_0007185>
+        rdfs:label  "salt treatment"^^xsd:string .
+
 <http://www.cropontology.org/rdf#CO_340:0000681>
         a                    owl:Class ;
         rdfs:label           "Flower length" ;
@@ -3285,8 +3675,52 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Length of flowers" .
 
+<http://purl.obolibrary.org/obo/EO_0007404>
+        rdfs:label  "drought environment"^^xsd:string .
+
+<http://purl.obolibrary.org/obo/EO_0007198>
+        rdfs:label  "water environment"^^xsd:string .
+
 <http://purl.obolibrary.org/obo/PO_0020127>
         rdfs:label  "primary root"^^xsd:string .
+
+<http://www.cropontology.org/rdf#CO_339:0000030>
+        a                    owl:Class ;
+        rdfs:label           "Cold tolerance" ;
+        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
+        owl:equivalentClass  [ a                   owl:Class ;
+                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0000003> ;
+                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
+                                                                                                   ] [ a                  owl:Restriction ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000515> ;
+                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
+                                                                                                     ] [ a                  owl:Restriction ;
+                                                                                                         owl:allValuesFrom  <http://purl.obolibrary.org/obo/EO_0007174> ;
+                                                                                                         owl:onProperty     <http://www.cropontology.org/rdf#stressor>
+                                                                                                       ] )
+                             ] ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Tolerance to damage caused to aerial plant parts by cold stress." .
+
+<http://www.cropontology.org/rdf#CO_336:0000072>
+        a                    owl:Class ;
+        rdfs:label           "Flooding tolerance" ;
+        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
+        owl:equivalentClass  [ a                   owl:Class ;
+                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0000003> ;
+                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
+                                                                                                   ] [ a                  owl:Restriction ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000515> ;
+                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
+                                                                                                     ] [ a                  owl:Restriction ;
+                                                                                                         owl:allValuesFrom  <http://purl.obolibrary.org/obo/EO_0007396> ;
+                                                                                                         owl:onProperty     <http://www.cropontology.org/rdf#stressor>
+                                                                                                       ] )
+                             ] ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Response of plant to inundation by water of all or part of the plant" .
 
 <http://www.cropontology.org/rdf#CO_320:0000011>
         a                    owl:Class ;
@@ -3303,6 +3737,25 @@
                              ] ;
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Length of penultimate leaf blade " .
+
+<http://www.cropontology.org/rdf#CO_321:0000131>
+        a                    owl:Class ;
+        rdfs:label           "Drought tolerance" ;
+        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
+        owl:equivalentClass  [ a                   owl:Class ;
+                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0000003> ;
+                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
+                                                                                                   ] [ a                  owl:Restriction ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000515> ;
+                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
+                                                                                                     ] [ a                  owl:Restriction ;
+                                                                                                         owl:allValuesFrom  <http://purl.obolibrary.org/obo/EO_0007404> ;
+                                                                                                         owl:onProperty     <http://www.cropontology.org/rdf#stressor>
+                                                                                                       ] )
+                             ] ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "An assessment of the plants tolerance to drought conditions." .
 
 <http://www.cropontology.org/rdf#CO_334:0000453>
         a                    owl:Class ;
@@ -3431,6 +3884,9 @@
 <http://purl.obolibrary.org/obo/PATO_0000117>
         rdfs:label  "size"^^xsd:string .
 
+<http://purl.obolibrary.org/obo/EO_0007273>
+        rdfs:label  "boron nutrient regimen"^^xsd:string .
+
 <http://www.cropontology.org/rdf#CO_334:0000474>
         a                    owl:Class ;
         rdfs:label           "Starch Content " ;
@@ -3519,6 +3975,25 @@
                              ] ;
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Length of flag leaf  " .
+
+<http://www.cropontology.org/rdf#CO_321:0000080>
+        a                    owl:Class ;
+        rdfs:label           "Cold tolerance" ;
+        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
+        owl:equivalentClass  [ a                   owl:Class ;
+                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0000003> ;
+                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
+                                                                                                   ] [ a                  owl:Restriction ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000515> ;
+                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
+                                                                                                     ] [ a                  owl:Restriction ;
+                                                                                                         owl:allValuesFrom  <http://purl.obolibrary.org/obo/EO_0007174> ;
+                                                                                                         owl:onProperty     <http://www.cropontology.org/rdf#stressor>
+                                                                                                       ] )
+                             ] ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "An assessment of the plants tolerance to lower temperatures than the optimum." .
 
 <http://www.cropontology.org/rdf#CO_340:0000875>
         a                    owl:Class ;
@@ -3673,22 +4148,6 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Leaf appearance" .
 
-<http://www.cropontology.org/rdf#CO_321:0000640>
-        a                    owl:Class ;
-        rdfs:label           "Grain weight" ;
-        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
-        owl:equivalentClass  [ a                   owl:Class ;
-                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
-                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0009001> ;
-                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
-                                                                                                   ] [ a                  owl:Restriction ;
-                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000128> ;
-                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
-                                                                                                     ] )
-                             ] ;
-        <http://www.w3.org/2004/02/skos/core#definition>
-                "Grain weight usually expressed as weight of single, one hundred, two hundred or thousand grains." .
-
 <http://www.cropontology.org/rdf#CO_340:0000416>
         a                    owl:Class ;
         rdfs:label           "Seedcoat color" ;
@@ -3705,6 +4164,22 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Seed coat color" .
 
+<http://www.cropontology.org/rdf#CO_321:0000640>
+        a                    owl:Class ;
+        rdfs:label           "Grain weight" ;
+        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
+        owl:equivalentClass  [ a                   owl:Class ;
+                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0009001> ;
+                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
+                                                                                                   ] [ a                  owl:Restriction ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000128> ;
+                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
+                                                                                                     ] )
+                             ] ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Grain weight usually expressed as weight of single, one hundred, two hundred or thousand grains." .
+
 <http://www.cropontology.org/rdf#CO_334:0000402>
         a                    owl:Class ;
         rdfs:label           "Leaf weight" ;
@@ -3720,6 +4195,25 @@
                              ] ;
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Weight of leaf" .
+
+<http://www.cropontology.org/rdf#CO_339:0000018>
+        a                    owl:Class ;
+        rdfs:label           "Boron toxicity tolerance" ;
+        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
+        owl:equivalentClass  [ a                   owl:Class ;
+                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0025034> ;
+                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
+                                                                                                   ] [ a                  owl:Restriction ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000515> ;
+                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
+                                                                                                     ] [ a                  owl:Restriction ;
+                                                                                                         owl:allValuesFrom  <http://purl.obolibrary.org/obo/EO_0007273> ;
+                                                                                                         owl:onProperty     <http://www.cropontology.org/rdf#stressor>
+                                                                                                       ] )
+                             ] ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Degree of tolerance to boron toxicity" .
 
 <http://purl.obolibrary.org/obo/PO_0025002>
         rdfs:label  "basal root"^^xsd:string .
@@ -3745,6 +4239,25 @@
 
 <http://purl.obolibrary.org/obo/PATO_0000074>
         rdfs:label  "shattering"^^xsd:string .
+
+<http://www.cropontology.org/rdf#CO_321:0000679>
+        a                    owl:Class ;
+        rdfs:label           "Herbicide damage" ;
+        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
+        owl:equivalentClass  [ a                   owl:Class ;
+                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0000003> ;
+                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
+                                                                                                   ] [ a                  owl:Restriction ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0001020> ;
+                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
+                                                                                                     ] [ a                  owl:Restriction ;
+                                                                                                         owl:allValuesFrom  <http://purl.obolibrary.org/obo/EO_0007183> ;
+                                                                                                         owl:onProperty     <http://www.cropontology.org/rdf#stressor>
+                                                                                                       ] )
+                             ] ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "An assessment of plant damage caused by herbicide." .
 
 <http://purl.obolibrary.org/obo/CHEBI_28966>
         rdfs:label  "chlorophyll"^^xsd:string .
@@ -3859,6 +4372,25 @@
                              ] ;
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Seedcoat pattern" .
+
+<http://www.cropontology.org/rdf#CO_321:0000127>
+        a                    owl:Class ;
+        rdfs:label           "Frost damage" ;
+        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
+        owl:equivalentClass  [ a                   owl:Class ;
+                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0000003> ;
+                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
+                                                                                                   ] [ a                  owl:Restriction ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0001020> ;
+                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
+                                                                                                     ] [ a                  owl:Restriction ;
+                                                                                                         owl:allValuesFrom  <http://purl.obolibrary.org/obo/EO_0007384> ;
+                                                                                                         owl:onProperty     <http://www.cropontology.org/rdf#stressor>
+                                                                                                       ] )
+                             ] ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "An assessment of the plant damage caused by frost." .
 
 <http://www.cropontology.org/rdf#CO_339:0000039>
         a                    owl:Class ;
@@ -4117,9 +4649,6 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Colour of the awns, if present " .
 
-<http://purl.obolibrary.org/obo/PO_0020041>
-        rdfs:label  "stipule"^^xsd:string .
-
 <http://www.cropontology.org/rdf#CO_338:0000002>
         a                    owl:Class ;
         rdfs:label           "Pod weight" ;
@@ -4135,6 +4664,9 @@
                              ] ;
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Weight of pods from a plant" .
+
+<http://purl.obolibrary.org/obo/PO_0020041>
+        rdfs:label  "stipule"^^xsd:string .
 
 <http://www.cropontology.org/rdf#CO_334:0000478>
         a                    owl:Class ;
@@ -4270,6 +4802,25 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Number of emerging seedlings" .
 
+<http://www.cropontology.org/rdf#CO_321:0000164>
+        a                    owl:Class ;
+        rdfs:label           "Winter kill damage" ;
+        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
+        owl:equivalentClass  [ a                   owl:Class ;
+                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0000003> ;
+                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
+                                                                                                   ] [ a                  owl:Restriction ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0001020> ;
+                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
+                                                                                                     ] [ a                  owl:Restriction ;
+                                                                                                         owl:allValuesFrom  <http://purl.obolibrary.org/obo/EO_0007035> ;
+                                                                                                         owl:onProperty     <http://www.cropontology.org/rdf#stressor>
+                                                                                                       ] )
+                             ] ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "An assessment of the plants killed as a result of winter conditions. " .
+
 <http://www.cropontology.org/rdf#CO_334:0000473>
         a                    owl:Class ;
         rdfs:label           "Stalk length" ;
@@ -4401,7 +4952,7 @@
         a                    owl:Class ;
         owl:equivalentClass  [ a                   owl:Class ;
                                owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
-                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0000003> ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0009011> ;
                                                                                                      owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
                                                                                                    ] [ a                  owl:Restriction ;
                                                                                                        owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000001> ;
