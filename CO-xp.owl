@@ -8,6 +8,7 @@
 
 <http://www.cropontology.org/rdf#CO_320:0000078>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "panicle threshability" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -27,6 +28,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000657>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Stem strength" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -43,6 +45,7 @@
 
 <http://www.cropontology.org/rdf#CO_336:0000180>
         a                    owl:Class ;
+        rdfs:comment         "Soybean" ;
         rdfs:label           "Primary root shape" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -62,6 +65,7 @@
 
 <http://www.cropontology.org/rdf#CO_336:0000105>
         a                    owl:Class ;
+        rdfs:comment         "Soybean" ;
         rdfs:label           "Seed linoleic acid content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -84,6 +88,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000575>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Grain protein content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -103,6 +108,7 @@
 
 <http://www.cropontology.org/rdf#CO_341:0000141>
         a                    owl:Class ;
+        rdfs:comment         "Pigeonpea" ;
         rdfs:label           "Pod length" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -119,6 +125,7 @@
 
 <http://www.cropontology.org/rdf#CO_338:0000057>
         a                    owl:Class ;
+        rdfs:comment         "Chickpea" ;
         rdfs:label           "Cold tolerance" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -138,6 +145,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000025>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Grain weight" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -157,6 +165,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000180>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Grain yield" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -173,6 +182,7 @@
 
 <http://www.cropontology.org/rdf#CO_320:0000073>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "grain yield" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -189,6 +199,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000414>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Number of fruits " ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -211,6 +222,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000427>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Petiole Color" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -227,6 +239,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000678>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Boron tolerance" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -252,6 +265,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000507>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Zinc Content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -274,6 +288,7 @@
 
 <http://www.cropontology.org/rdf#CO_337:0000019>
         a                    owl:Class ;
+        rdfs:comment         "Groundnut" ;
         rdfs:label           "Leaf size" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -293,6 +308,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000663>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Eye pattern" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -309,6 +325,7 @@
 
 <http://www.cropontology.org/rdf#CO_336:0000219>
         a                    owl:Class ;
+        rdfs:comment         "Soybean" ;
         rdfs:label           "Leaflet shape" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -332,6 +349,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000689>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Seed thickness" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -348,6 +366,7 @@
 
 <http://www.cropontology.org/rdf#CO_320:0000006>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "leaf blade color" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -364,6 +383,7 @@
 
 <http://www.cropontology.org/rdf#CO_341:0000090>
         a                    owl:Class ;
+        rdfs:comment         "Pigeonpea" ;
         rdfs:label           "Flower color" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -380,6 +400,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000126>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Hail damage" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -399,6 +420,7 @@
 
 <http://www.cropontology.org/rdf#CO_338:0000060>
         a                    owl:Class ;
+        rdfs:comment         "Chickpea" ;
         rdfs:label           "Seed protein content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -418,6 +440,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000502>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Tuberous root cyanide content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -437,6 +460,7 @@
 
 <http://www.cropontology.org/rdf#CO_336:0000147>
         a                    owl:Class ;
+        rdfs:comment         "Soybean" ;
         rdfs:label           "Seed lysine content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -456,6 +480,7 @@
 
 <http://www.cropontology.org/rdf#CO_337:0000014>
         a                    owl:Class ;
+        rdfs:comment         "Groundnut" ;
         rdfs:label           "Seed protein content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -475,6 +500,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000671>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Stipule width" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -491,6 +517,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000684>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Pod width" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -507,6 +534,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000431>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Flower color" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -523,6 +551,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000389>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Leaf color" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -542,6 +571,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000430>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Petiole orientation" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -556,11 +586,15 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "petiole orientation" .
 
+<http://www.cropontology.org/rdf#CO_336:0000075>
+        rdfs:comment  "Soybean" .
+
 <http://purl.obolibrary.org/obo/PO_0009073>
         rdfs:label  "stigma"^^xsd:string .
 
 <http://www.cropontology.org/rdf#CO_320:0000014>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "leaf angle" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -575,11 +609,9 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Position of the tip of the penultimate leaf blade relative to its base " .
 
-<http://purl.obolibrary.org/obo/PATO_0000001>
-        rdfs:label  "quality"^^xsd:string .
-
 <http://www.cropontology.org/rdf#CO_320:0000027>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "ligule shape" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -594,8 +626,12 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Shape of the ligule " .
 
+<http://purl.obolibrary.org/obo/PATO_0000001>
+        rdfs:label  "quality"^^xsd:string .
+
 <http://www.cropontology.org/rdf#CO_334:0000456>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Root Yield" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -621,6 +657,7 @@
 
 <http://www.cropontology.org/rdf#CO_338:0000019>
         a                    owl:Class ;
+        rdfs:comment         "Chickpea" ;
         rdfs:label           "Seed shape" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -637,6 +674,7 @@
 
 <http://www.cropontology.org/rdf#CO_337:0000035>
         a                    owl:Class ;
+        rdfs:comment         "Groundnut" ;
         rdfs:label           "Seed size" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -662,6 +700,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000062>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Stem diameter" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -678,6 +717,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000371>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Fruit Exocarp Texture" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -697,6 +737,7 @@
 
 <http://www.cropontology.org/rdf#CO_337:0000048>
         a                    owl:Class ;
+        rdfs:comment         "Groundnut" ;
         rdfs:label           "LA of 2 full leaves" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -713,6 +754,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000617>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Nodule weight" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -729,6 +771,7 @@
 
 <http://www.cropontology.org/rdf#CO_336:0000248>
         a                    owl:Class ;
+        rdfs:comment         "Soybean" ;
         rdfs:label           "Pod shattering" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -748,6 +791,7 @@
 
 <http://www.cropontology.org/rdf#CO_336:0000096>
         a                    owl:Class ;
+        rdfs:comment         "Soybean" ;
         rdfs:label           "Seed quality" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -764,6 +808,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000477>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Stem epidermis color" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -783,6 +828,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000222>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Grain Iron content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -805,6 +851,7 @@
 
 <http://www.cropontology.org/rdf#CO_320:0000115>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "pericarp colour" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -821,6 +868,7 @@
 
 <http://www.cropontology.org/rdf#CO_338:0000027>
         a                    owl:Class ;
+        rdfs:comment         "Chickpea" ;
         rdfs:label           "Seed yield per ha" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -837,6 +885,7 @@
 
 <http://www.cropontology.org/rdf#CO_339:0000147>
         a                    owl:Class ;
+        rdfs:comment         "Lentil" ;
         rdfs:label           "Root length density" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -853,6 +902,7 @@
 
 <http://www.cropontology.org/rdf#CO_337:0000043>
         a                    owl:Class ;
+        rdfs:comment         "Groundnut" ;
         rdfs:label           "Root length" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -869,6 +919,7 @@
 
 <http://www.cropontology.org/rdf#CO_336:0000189>
         a                    owl:Class ;
+        rdfs:comment         "Soybean" ;
         rdfs:label           "Main stem diameter" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -885,6 +936,7 @@
 
 <http://www.cropontology.org/rdf#CO_337:0000056>
         a                    owl:Class ;
+        rdfs:comment         "Groundnut" ;
         rdfs:label           "Stem Sodium content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -913,6 +965,7 @@
 
 <http://www.cropontology.org/rdf#CO_320:0000030>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "culm length" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -967,6 +1020,7 @@
 
 <http://www.cropontology.org/rdf#CO_320:0000110>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "caryopsis length" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -986,6 +1040,7 @@
 
 <http://www.cropontology.org/rdf#CO_337:0000064>
         a                    owl:Class ;
+        rdfs:comment         "Groundnut" ;
         rdfs:label           "SPAD after 7days under stress" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1005,6 +1060,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000620>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Nodule number" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1019,8 +1075,12 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Number of nodules" .
 
+<http://www.cropontology.org/rdf#CO_341:0000158>
+        rdfs:comment  "Pigeonpea" .
+
 <http://www.cropontology.org/rdf#CO_321:0000029>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Coleoptile length" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1043,6 +1103,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000659>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Pod curvature" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1059,6 +1120,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000700>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "number of adventitious roots" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1075,6 +1137,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000480>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Stem weight" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1091,6 +1154,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000419>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Seed shape" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1107,6 +1171,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000493>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Storage root weight" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1123,6 +1188,7 @@
 
 <http://www.cropontology.org/rdf#CO_341:0000099>
         a                    owl:Class ;
+        rdfs:comment         "Pigeonpea" ;
         rdfs:label           "Pod wax" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1139,6 +1205,7 @@
 
 <http://www.cropontology.org/rdf#CO_336:0000117>
         a                    owl:Class ;
+        rdfs:comment         "Soybean" ;
         rdfs:label           "Seed methionine content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1158,6 +1225,7 @@
 
 <http://www.cropontology.org/rdf#CO_320:0000144>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "awn thickness" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1174,6 +1242,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000279>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Amylose Content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1193,6 +1262,7 @@
 
 <http://www.cropontology.org/rdf#CO_339:0000189>
         a                    owl:Class ;
+        rdfs:comment         "Lentil" ;
         rdfs:label           "Water logging tolerance" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1215,6 +1285,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000037>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Grain color" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1231,6 +1302,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000401>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Length of pods" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1250,6 +1322,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000413>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Number of forks" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1266,6 +1339,7 @@
 
 <http://www.cropontology.org/rdf#CO_341:0000081>
         a                    owl:Class ;
+        rdfs:comment         "Pigeonpea" ;
         rdfs:label           "Stem color" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1285,6 +1359,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000439>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Proportion of female flower" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1301,6 +1376,7 @@
 
 <http://www.cropontology.org/rdf#CO_338:0000051>
         a                    owl:Class ;
+        rdfs:comment         "Chickpea" ;
         rdfs:label           "Seed yield per plot" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1323,6 +1399,7 @@
 
 <http://www.cropontology.org/rdf#CO_339:0000171>
         a                    owl:Class ;
+        rdfs:comment         "Lentil" ;
         rdfs:label           "Chlorophyll content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1345,6 +1422,7 @@
 
 <http://www.cropontology.org/rdf#CO_320:0000152>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "panicle shattering" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1359,8 +1437,12 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Describes the tendency of grains to fall off the panicle before it is threshed " .
 
+<http://www.cropontology.org/rdf#CO_341:0000161>
+        rdfs:comment  "Pigeonpea" .
+
 <http://www.cropontology.org/rdf#CO_337:0000005>
         a                    owl:Class ;
+        rdfs:comment         "Groundnut" ;
         rdfs:label           "Pod yield" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1377,6 +1459,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000032>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Glume length" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1393,6 +1476,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000662>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Eye colour" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1409,6 +1493,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000058>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Spikelet number" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1425,6 +1510,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000367>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Flowering" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1444,6 +1530,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000688>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Seed width" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1460,6 +1547,7 @@
 
 <http://www.cropontology.org/rdf#CO_336:0000066>
         a                    owl:Class ;
+        rdfs:comment         "Soybean" ;
         rdfs:label           "Pod length" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1476,6 +1564,7 @@
 
 <http://www.cropontology.org/rdf#CO_320:0000005>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "grain width" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1495,6 +1584,7 @@
 
 <http://www.cropontology.org/rdf#CO_336:0000120>
         a                    owl:Class ;
+        rdfs:comment         "Soybean" ;
         rdfs:label           "Seed stearic acid content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1511,9 +1601,6 @@
                              ] ;
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Stearic acid content of the seed oil i.e., stearic acid weight per total oil weight of the seed" .
-
-<http://purl.obolibrary.org/obo/PO_0025034>
-        rdfs:label  "leaf"^^xsd:string .
 
 <http://www.cropontology.org/rdf#CO_338:0000072>
         a                    owl:Class ;
@@ -1534,11 +1621,18 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Degree of tolerance to soil salinity" .
 
+<http://purl.obolibrary.org/obo/PO_0025034>
+        rdfs:label  "leaf"^^xsd:string .
+
+<http://www.cropontology.org/rdf#CO_339:0000192>
+        rdfs:comment  "Lentil" .
+
 <http://purl.obolibrary.org/obo/PO_0020049>
         rdfs:label  "leaflet"^^xsd:string .
 
 <http://www.cropontology.org/rdf#CO_321:0000040>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Grain size" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1564,6 +1658,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000670>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Stipule length" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1580,6 +1675,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000683>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Number of racemes" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1596,6 +1692,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000079>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Aluminum tolerance" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1615,6 +1712,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000442>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Protein Content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1637,6 +1735,7 @@
 
 <http://www.cropontology.org/rdf#CO_320:0000026>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "ligule color" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1656,6 +1755,7 @@
 
 <http://www.cropontology.org/rdf#CO_338:0000093>
         a                    owl:Class ;
+        rdfs:comment         "Chickpea" ;
         rdfs:label           "Leaf chlorophyll content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1675,6 +1775,7 @@
 
 <http://www.cropontology.org/rdf#CO_341:0000102>
         a                    owl:Class ;
+        rdfs:comment         "Pigeonpea" ;
         rdfs:label           "Pod size" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1691,6 +1792,7 @@
 
 <http://www.cropontology.org/rdf#CO_337:0000021>
         a                    owl:Class ;
+        rdfs:comment         "Groundnut" ;
         rdfs:label           "Leaf shape" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1710,6 +1812,7 @@
 
 <http://www.cropontology.org/rdf#CO_337:0000034>
         a                    owl:Class ;
+        rdfs:comment         "Groundnut" ;
         rdfs:label           "Seed color" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1729,6 +1832,7 @@
 
 <http://www.cropontology.org/rdf#CO_320:0000021>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "leaf width" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1748,6 +1852,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000141>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Flag leaf area" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1764,6 +1869,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000450>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Root length" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1780,6 +1886,7 @@
 
 <http://www.cropontology.org/rdf#CO_341:0000030>
         a                    owl:Class ;
+        rdfs:comment         "Pigeonpea" ;
         rdfs:label           "Seed weight" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1802,6 +1909,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000476>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Stem cortex color" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1821,6 +1929,7 @@
 
 <http://www.cropontology.org/rdf#CO_338:0000026>
         a                    owl:Class ;
+        rdfs:comment         "Chickpea" ;
         rdfs:label           "Seed weight" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1837,6 +1946,7 @@
 
 <http://www.cropontology.org/rdf#CO_339:0000159>
         a                    owl:Class ;
+        rdfs:comment         "Lentil" ;
         rdfs:label           "Seed diameter" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1853,6 +1963,7 @@
 
 <http://www.cropontology.org/rdf#CO_337:0000055>
         a                    owl:Class ;
+        rdfs:comment         "Groundnut" ;
         rdfs:label           "Leaf Sodium content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1872,6 +1983,7 @@
 
 <http://www.cropontology.org/rdf#CO_337:0000068>
         a                    owl:Class ;
+        rdfs:comment         "Groundnut" ;
         rdfs:label           "Seed yield" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1888,6 +2000,7 @@
 
 <http://www.cropontology.org/rdf#CO_336:0000090>
         a                    owl:Class ;
+        rdfs:comment         "Soybean" ;
         rdfs:label           "Pod color" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1904,6 +2017,7 @@
 
 <http://www.cropontology.org/rdf#CO_320:0000042>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "sterile lemma length" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1920,6 +2034,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000704>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "number of basal region roots" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1937,8 +2052,12 @@
 <http://purl.obolibrary.org/obo/PO_0009039>
         rdfs:label  "glume"^^xsd:string .
 
+<http://www.cropontology.org/rdf#CO_339:0000087>
+        rdfs:comment  "Lentil" .
+
 <http://www.cropontology.org/rdf#CO_340:0000245>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Grain yield per plot" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1955,6 +2074,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0007645>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Floral abscision" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1974,6 +2094,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000188>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Grain yield" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -1990,6 +2111,7 @@
 
 <http://www.cropontology.org/rdf#CO_336:0000183>
         a                    owl:Class ;
+        rdfs:comment         "Soybean" ;
         rdfs:label           "Primary root size" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2006,6 +2128,7 @@
 
 <http://www.cropontology.org/rdf#CO_336:0000108>
         a                    owl:Class ;
+        rdfs:comment         "Soybean" ;
         rdfs:label           "Seed linolenic acid content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2025,6 +2148,7 @@
 
 <http://www.cropontology.org/rdf#CO_337:0000063>
         a                    owl:Class ;
+        rdfs:comment         "Groundnut" ;
         rdfs:label           "SPAD at the start of stress" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2047,6 +2171,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000028>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Leaf chlorophyll content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2069,6 +2194,7 @@
 
 <http://www.cropontology.org/rdf#CO_336:0000036>
         a                    owl:Class ;
+        rdfs:comment         "Soybean" ;
         rdfs:label           "Seed yield" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2088,6 +2214,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000492>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Storage Root Size" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2104,6 +2231,7 @@
 
 <http://www.cropontology.org/rdf#CO_341:0000072>
         a                    owl:Class ;
+        rdfs:comment         "Pigeonpea" ;
         rdfs:label           "Plumule length" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2123,6 +2251,7 @@
 
 <http://www.cropontology.org/rdf#CO_339:0000162>
         a                    owl:Class ;
+        rdfs:comment         "Lentil" ;
         rdfs:label           "Grain protein content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2142,6 +2271,7 @@
 
 <http://www.cropontology.org/rdf#CO_338:0000055>
         a                    owl:Class ;
+        rdfs:comment         "Chickpea" ;
         rdfs:label           "Seed diameter" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2159,8 +2289,12 @@
 <http://purl.obolibrary.org/obo/EO_0007384>
         rdfs:label  "freezing air temperature regimen"^^xsd:string .
 
+<http://www.cropontology.org/rdf#CO_341:0000152>
+        rdfs:comment  "Pigeonpea" .
+
 <http://www.cropontology.org/rdf#CO_320:0000156>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "awn presence" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2177,6 +2311,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000036>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Glume width" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2193,6 +2328,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000049>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Leaf width" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2209,6 +2345,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000413>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Seedcoat" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2223,8 +2360,12 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Seedcoat texture" .
 
+<http://www.cropontology.org/rdf#CO_339:0000015>
+        rdfs:comment  "Lentil" .
+
 <http://www.cropontology.org/rdf#CO_320:0000084>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "culm strength" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2241,6 +2382,7 @@
 
 <http://www.cropontology.org/rdf#CO_320:0000009>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "panicle number" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2257,6 +2399,7 @@
 
 <http://www.cropontology.org/rdf#CO_341:0000093>
         a                    owl:Class ;
+        rdfs:comment         "Pigeonpea" ;
         rdfs:label           "Pod color" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2273,6 +2416,7 @@
 
 <http://www.cropontology.org/rdf#CO_336:0000111>
         a                    owl:Class ;
+        rdfs:comment         "Soybean" ;
         rdfs:label           "Seed palmitic acid content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2292,6 +2436,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000438>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Presence of pollen" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2306,8 +2451,12 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Presence of pollen" .
 
+<http://www.cropontology.org/rdf#CO_341:0000160>
+        rdfs:comment  "Pigeonpea" .
+
 <http://www.cropontology.org/rdf#CO_338:0000076>
         a                    owl:Class ;
+        rdfs:comment         "Chickpea" ;
         rdfs:label           "Pod length" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2324,6 +2473,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000031>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Glume color" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2340,6 +2490,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000044>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Leaf length" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2356,6 +2507,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000353>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Central Leaf Shape" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2372,6 +2524,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000661>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Testa texture" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2391,6 +2544,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000057>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Spike shattering" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2407,6 +2561,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000687>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Seed length" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2426,6 +2581,7 @@
 
 <http://www.cropontology.org/rdf#CO_320:0000004>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "grain length" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2442,6 +2598,7 @@
 
 <http://www.cropontology.org/rdf#CO_336:0000078>
         a                    owl:Class ;
+        rdfs:comment         "Soybean" ;
         rdfs:label           "Drought Tolerance" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2461,6 +2618,7 @@
 
 <http://www.cropontology.org/rdf#CO_320:0000017>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "flag leaf angle" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2477,6 +2635,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000459>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Seed Color" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2493,6 +2652,7 @@
 
 <http://www.cropontology.org/rdf#CO_338:0000071>
         a                    owl:Class ;
+        rdfs:comment         "Chickpea" ;
         rdfs:label           "Root length" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2512,6 +2672,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000294>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Branching Angle" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2537,6 +2698,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000052>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Peduncle length" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2554,8 +2716,26 @@
 <http://www.cropontology.org/rdf#affects_quality>
         a       owl:TransitiveProperty , rdf:Property .
 
+<http://www.cropontology.org/rdf#CO_336:0000238>
+        a                    owl:Class ;
+        rdfs:comment         "Soybean" ;
+        rdfs:label           "Seed weight" ;
+        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
+        owl:equivalentClass  [ a                   owl:Class ;
+                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0009010> ;
+                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
+                                                                                                   ] [ a                  owl:Restriction ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000128> ;
+                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
+                                                                                                     ] )
+                             ] ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Weight of the seed" .
+
 <http://www.cropontology.org/rdf#CO_321:0000078>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Acid soil tolerance" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2573,24 +2753,9 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "An assessment of the plants tolerance to acid soil." .
 
-<http://www.cropontology.org/rdf#CO_336:0000238>
-        a                    owl:Class ;
-        rdfs:label           "Seed weight" ;
-        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
-        owl:equivalentClass  [ a                   owl:Class ;
-                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
-                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0009010> ;
-                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
-                                                                                                   ] [ a                  owl:Restriction ;
-                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000128> ;
-                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
-                                                                                                     ] )
-                             ] ;
-        <http://www.w3.org/2004/02/skos/core#definition>
-                "Weight of the seed" .
-
 <http://www.cropontology.org/rdf#CO_334:0000387>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Iron Content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2610,6 +2775,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000695>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "stem diameter" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2648,6 +2814,7 @@
 
 <http://www.cropontology.org/rdf#CO_320:0000025>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "ligule length" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2664,6 +2831,7 @@
 
 <http://www.cropontology.org/rdf#CO_339:0000057>
         a                    owl:Class ;
+        rdfs:comment         "Lentil" ;
         rdfs:label           "Drought tolerance" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2684,8 +2852,12 @@
 <http://purl.obolibrary.org/obo/PO_0025281>
         rdfs:label  "pollen"^^xsd:string .
 
+<http://www.cropontology.org/rdf#CO_336:0000099>
+        rdfs:comment  "Soybean" .
+
 <http://www.cropontology.org/rdf#CO_320:0000038>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "stigma color" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2708,6 +2880,7 @@
 
 <http://www.cropontology.org/rdf#CO_336:0000153>
         a                    owl:Class ;
+        rdfs:comment         "Soybean" ;
         rdfs:label           "Seed isoflavone content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2727,6 +2900,7 @@
 
 <http://www.cropontology.org/rdf#CO_337:0000020>
         a                    owl:Class ;
+        rdfs:comment         "Groundnut" ;
         rdfs:label           "Leaf color" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2743,6 +2917,7 @@
 
 <http://www.cropontology.org/rdf#CO_338:0000017>
         a                    owl:Class ;
+        rdfs:comment         "Chickpea" ;
         rdfs:label           "Flower color" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2759,6 +2934,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000548>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Grain sucrose content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2778,6 +2954,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000060>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Stem length" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2794,6 +2971,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0003641>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Pod yield" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2810,6 +2988,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000073>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Grain protein content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2829,6 +3008,7 @@
 
 <http://www.cropontology.org/rdf#CO_336:0000081>
         a                    owl:Class ;
+        rdfs:comment         "Soybean" ;
         rdfs:label           "Herbicide sensitivity" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2848,6 +3028,7 @@
 
 <http://www.cropontology.org/rdf#CO_320:0000033>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "panicle length" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2864,6 +3045,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000462>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Sepal Color" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2880,6 +3062,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000166>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Spike number" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2896,6 +3079,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000475>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Stem Color" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2912,6 +3096,7 @@
 
 <http://www.cropontology.org/rdf#CO_338:0000265>
         a                    owl:Class ;
+        rdfs:comment         "Chickpea" ;
         rdfs:label           "Seed yield" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2926,24 +3111,9 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Weight of seed per unit of area" .
 
-<http://www.cropontology.org/rdf#CO_320:0000100>
-        a                    owl:Class ;
-        rdfs:label           "grain weight" ;
-        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
-        owl:equivalentClass  [ a                   owl:Class ;
-                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
-                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0009001> ;
-                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
-                                                                                                   ] [ a                  owl:Restriction ;
-                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000128> ;
-                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
-                                                                                                     ] )
-                             ] ;
-        <http://www.w3.org/2004/02/skos/core#definition>
-                "The weight of a sample of whole grains including the hull " .
-
 <http://www.cropontology.org/rdf#CO_340:0000708>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Tap root diameter" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2958,8 +3128,26 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "tap root diameter" .
 
+<http://www.cropontology.org/rdf#CO_320:0000100>
+        a                    owl:Class ;
+        rdfs:comment         "Rice" ;
+        rdfs:label           "grain weight" ;
+        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
+        owl:equivalentClass  [ a                   owl:Class ;
+                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0009001> ;
+                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
+                                                                                                   ] [ a                  owl:Restriction ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000128> ;
+                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
+                                                                                                     ] )
+                             ] ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "The weight of a sample of whole grains including the hull " .
+
 <http://www.cropontology.org/rdf#CO_321:0000220>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Grain hardness" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2974,8 +3162,12 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Grain hardness is used as a grading factor to determine the type of wheat. It is a key determinant for classification of wheat and end product quality." .
 
+<http://www.cropontology.org/rdf#CO_321:0000081>
+        rdfs:comment  "Wheat" .
+
 <http://www.cropontology.org/rdf#CO_334:0000390>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Leaf Life  span" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -2992,6 +3184,7 @@
 
 <http://www.cropontology.org/rdf#CO_337:0000067>
         a                    owl:Class ;
+        rdfs:comment         "Groundnut" ;
         rdfs:label           "Leaf area" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3008,6 +3201,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000623>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Peduncle length" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3024,6 +3218,7 @@
 
 <http://www.cropontology.org/rdf#CO_320:0000041>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "sterile lemma color" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3043,6 +3238,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000703>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "number of adventitious roots" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3059,6 +3255,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000483>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Stipules Length" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3075,6 +3272,7 @@
 
 <http://www.cropontology.org/rdf#CO_338:0000020>
         a                    owl:Class ;
+        rdfs:comment         "Chickpea" ;
         rdfs:label           "Seed color" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3091,6 +3289,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000659>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Spike threshability" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3107,6 +3306,7 @@
 
 <http://www.cropontology.org/rdf#CO_320:0000121>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "sterile lemma shape" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3123,6 +3323,7 @@
 
 <http://www.cropontology.org/rdf#CO_338:0000033>
         a                    owl:Class ;
+        rdfs:comment         "Chickpea" ;
         rdfs:label           "Shoot potassium" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3167,6 +3368,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000641>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Grain weight" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3183,6 +3385,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000403>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Male flower number" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3205,6 +3408,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000491>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Storage Root Shape" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3221,6 +3425,7 @@
 
 <http://www.cropontology.org/rdf#CO_341:0000084>
         a                    owl:Class ;
+        rdfs:comment         "Pigeonpea" ;
         rdfs:label           "Leaf shape" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3256,6 +3461,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000429>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Petiole length" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3273,8 +3479,12 @@
 <http://purl.obolibrary.org/obo/PATO_0000075>
         rdfs:label  "threshability"^^xsd:string .
 
+<http://www.cropontology.org/rdf#CO_341:0000151>
+        rdfs:comment  "Pigeonpea" .
+
 <http://www.cropontology.org/rdf#CO_320:0000155>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "culm diameter" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3322,6 +3532,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000665>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Leaf colour" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3338,6 +3549,7 @@
 
 <http://www.cropontology.org/rdf#CO_320:0000488>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "awn distribution" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3360,6 +3572,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000128>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Waterlogging damage" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3379,6 +3592,7 @@
 
 <http://www.cropontology.org/rdf#CO_320:0000150>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "anther length" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3395,6 +3609,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000298>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Caruncle Color" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3420,6 +3635,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000660>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Seed Shape" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3436,6 +3652,7 @@
 
 <http://www.cropontology.org/rdf#CO_320:0000483>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "anther colour" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3452,6 +3669,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000056>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Spike length" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3468,6 +3686,7 @@
 
 <http://www.cropontology.org/rdf#CO_336:0000216>
         a                    owl:Class ;
+        rdfs:comment         "Soybean" ;
         rdfs:label           "Seed Raffinose content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3487,6 +3706,7 @@
 
 <http://www.cropontology.org/rdf#CO_320:0000496>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "culm number" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3503,6 +3723,7 @@
 
 <http://www.cropontology.org/rdf#CO_336:0000051>
         a                    owl:Class ;
+        rdfs:comment         "Soybean" ;
         rdfs:label           "Seed protein content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3522,6 +3743,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000686>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Pod colour" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3538,6 +3760,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000699>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "number of basal region roots" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3557,6 +3780,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000280>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Anther Color" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3573,6 +3797,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000293>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Branch height" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3589,6 +3814,7 @@
 
 <http://www.cropontology.org/rdf#CO_337:0000011>
         a                    owl:Class ;
+        rdfs:comment         "Groundnut" ;
         rdfs:label           "Seed weight" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3608,6 +3834,7 @@
 
 <http://www.cropontology.org/rdf#CO_341:0000105>
         a                    owl:Class ;
+        rdfs:comment         "Pigeonpea" ;
         rdfs:label           "Seed protein content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3627,6 +3854,7 @@
 
 <http://www.cropontology.org/rdf#CO_320:0000109>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "caryopsis shape" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3643,6 +3871,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000374>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Threshability" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3662,6 +3891,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000681>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Flower length" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3687,6 +3917,7 @@
 
 <http://www.cropontology.org/rdf#CO_339:0000030>
         a                    owl:Class ;
+        rdfs:comment         "Lentil" ;
         rdfs:label           "Cold tolerance" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3706,6 +3937,7 @@
 
 <http://www.cropontology.org/rdf#CO_336:0000072>
         a                    owl:Class ;
+        rdfs:comment         "Soybean" ;
         rdfs:label           "Flooding tolerance" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3725,6 +3957,7 @@
 
 <http://www.cropontology.org/rdf#CO_320:0000011>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "leaf length" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3741,6 +3974,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000131>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Drought tolerance" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3760,6 +3994,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000453>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Root Position" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3776,6 +4011,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000479>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Stem number" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3798,6 +4034,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000224>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Grain Zinc content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3817,6 +4054,7 @@
 
 <http://www.cropontology.org/rdf#CO_320:0000117>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "caryopsis width" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3833,6 +4071,7 @@
 
 <http://www.cropontology.org/rdf#CO_341:0000126>
         a                    owl:Class ;
+        rdfs:comment         "Pigeonpea" ;
         rdfs:label           "Seed yield" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3849,6 +4088,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000072>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Grain hardness" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3865,6 +4105,7 @@
 
 <http://www.cropontology.org/rdf#CO_337:0000058>
         a                    owl:Class ;
+        rdfs:comment         "Groundnut" ;
         rdfs:label           "Stem Potassium content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3890,6 +4131,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000474>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Starch Content " ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3909,6 +4151,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000487>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Storage Root Diameter" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3925,6 +4168,7 @@
 
 <http://www.cropontology.org/rdf#CO_339:0000144>
         a                    owl:Class ;
+        rdfs:comment         "Lentil" ;
         rdfs:label           "Root length" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3944,6 +4188,7 @@
 
 <http://www.cropontology.org/rdf#CO_337:0000218>
         a                    owl:Class ;
+        rdfs:comment         "Groundnut" ;
         rdfs:label           "Leaf chlorophyll content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3963,6 +4208,7 @@
 
 <http://www.cropontology.org/rdf#CO_320:0000138>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "flag leaf length" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3979,6 +4225,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000080>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Cold tolerance" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -3998,6 +4245,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000875>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Leaf protein content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4017,6 +4265,7 @@
 
 <http://www.cropontology.org/rdf#CO_320:0000218>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "seedling height" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4033,6 +4282,7 @@
 
 <http://www.cropontology.org/rdf#CO_320:0000079>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "tillering" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4049,6 +4299,7 @@
 
 <http://www.cropontology.org/rdf#CO_338:0000032>
         a                    owl:Class ;
+        rdfs:comment         "Chickpea" ;
         rdfs:label           "Shoot sodium" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4066,8 +4317,12 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Shoot sodium content from plants/subset of plants." .
 
+<http://www.cropontology.org/rdf#CO_340:0000269>
+        rdfs:comment  "Cowpea" .
+
 <http://www.cropontology.org/rdf#CO_320:0000146>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "awn length" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4084,6 +4339,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000013>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Grain yield" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4103,6 +4359,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000026>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Awn length" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4119,6 +4376,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000656>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Raceme position" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4135,6 +4393,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000669>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Leaf texture" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4149,24 +4408,9 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Leaf appearance" .
 
-<http://www.cropontology.org/rdf#CO_321:0000640>
-        a                    owl:Class ;
-        rdfs:label           "Grain weight" ;
-        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
-        owl:equivalentClass  [ a                   owl:Class ;
-                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
-                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0009001> ;
-                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
-                                                                                                   ] [ a                  owl:Restriction ;
-                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000128> ;
-                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
-                                                                                                     ] )
-                             ] ;
-        <http://www.w3.org/2004/02/skos/core#definition>
-                "Grain weight usually expressed as weight of single, one hundred, two hundred or thousand grains." .
-
 <http://www.cropontology.org/rdf#CO_340:0000416>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Seedcoat color" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4181,8 +4425,26 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Seed coat color" .
 
+<http://www.cropontology.org/rdf#CO_321:0000640>
+        a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
+        rdfs:label           "Grain weight" ;
+        rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
+        owl:equivalentClass  [ a                   owl:Class ;
+                               owl:intersectionOf  ( <http://www.cropontology.org/rdf#plant_trait> [ a                  owl:Restriction ;
+                                                                                                     owl:allValuesFrom  <http://purl.obolibrary.org/obo/PO_0009001> ;
+                                                                                                     owl:onProperty     <http://www.cropontology.org/rdf#occurs_in>
+                                                                                                   ] [ a                  owl:Restriction ;
+                                                                                                       owl:allValuesFrom  <http://purl.obolibrary.org/obo/PATO_0000128> ;
+                                                                                                       owl:onProperty     <http://www.cropontology.org/rdf#affects_quality>
+                                                                                                     ] )
+                             ] ;
+        <http://www.w3.org/2004/02/skos/core#definition>
+                "Grain weight usually expressed as weight of single, one hundred, two hundred or thousand grains." .
+
 <http://www.cropontology.org/rdf#CO_334:0000402>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Leaf weight" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4199,6 +4461,7 @@
 
 <http://www.cropontology.org/rdf#CO_339:0000018>
         a                    owl:Class ;
+        rdfs:comment         "Lentil" ;
         rdfs:label           "Boron toxicity tolerance" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4221,6 +4484,7 @@
 
 <http://www.cropontology.org/rdf#CO_336:0000114>
         a                    owl:Class ;
+        rdfs:comment         "Soybean" ;
         rdfs:label           "Seed oleic acid content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4243,6 +4507,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000679>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Herbicide damage" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4265,6 +4530,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000509>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Chlorophyll content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4287,6 +4553,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000047>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Leaf thickness" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4303,6 +4570,7 @@
 
 <http://www.cropontology.org/rdf#CO_336:0000207>
         a                    owl:Class ;
+        rdfs:comment         "Soybean" ;
         rdfs:label           "Lateral root size" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4319,6 +4587,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000664>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Hypocotyl length" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4333,11 +4602,9 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "length of the hypocotyl" .
 
-<http://purl.obolibrary.org/obo/PO_0009040>
-        rdfs:label  "sterile lemma"^^xsd:string .
-
 <http://www.cropontology.org/rdf#CO_336:0000042>
         a                    owl:Class ;
+        rdfs:comment         "Soybean" ;
         rdfs:label           "Early shattering" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4352,6 +4619,9 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "Proportion of open pods at harvest" .
 
+<http://purl.obolibrary.org/obo/PO_0009040>
+        rdfs:label  "sterile lemma"^^xsd:string .
+
 <http://purl.obolibrary.org/obo/PO_0009053>
         rdfs:label  "peduncle"^^xsd:string .
 
@@ -4360,6 +4630,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000272>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Seed coat pattern" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4395,6 +4666,7 @@
 
 <http://www.cropontology.org/rdf#CO_339:0000039>
         a                    owl:Class ;
+        rdfs:comment         "Lentil" ;
         rdfs:label           "Cotyledon colour" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4411,6 +4683,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000284>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Ascorbic Acid" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4430,6 +4703,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000297>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Carotenoid content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4455,6 +4729,7 @@
 
 <http://www.cropontology.org/rdf#CO_337:0000028>
         a                    owl:Class ;
+        rdfs:comment         "Groundnut" ;
         rdfs:label           "Pod size" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4471,6 +4746,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000055>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Spike density" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4487,6 +4763,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000364>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Female flower number" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4509,6 +4786,7 @@
 
 <http://www.cropontology.org/rdf#CO_336:0000063>
         a                    owl:Class ;
+        rdfs:comment         "Soybean" ;
         rdfs:label           "Flower color" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4528,6 +4806,7 @@
 
 <http://www.cropontology.org/rdf#CO_320:0000090>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "spikelet fertility" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4544,6 +4823,7 @@
 
 <http://www.cropontology.org/rdf#CO:340:0000638>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Grain yield" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4561,8 +4841,12 @@
 <http://purl.obolibrary.org/obo/PO_0020033>
         rdfs:label  "coleoptile"^^xsd:string .
 
+<http://purl.obolibrary.org/obo/PO_0020100>
+        rdfs:label  "hypocotyl"^^xsd:string .
+
 <http://www.cropontology.org/rdf#CO_336:0000210>
         a                    owl:Class ;
+        rdfs:comment         "Soybean" ;
         rdfs:label           "Lateral root shape" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4577,14 +4861,12 @@
         <http://www.w3.org/2004/02/skos/core#definition>
                 "The shape of the lateral root at a stipulated range of the roots" .
 
-<http://purl.obolibrary.org/obo/PO_0020100>
-        rdfs:label  "hypocotyl"^^xsd:string .
-
 <http://purl.obolibrary.org/obo/PATO_0000170>
         rdfs:label  "yield"^^xsd:string .
 
 <http://www.cropontology.org/rdf#CO_341:0000117>
         a                    owl:Class ;
+        rdfs:comment         "Pigeonpea" ;
         rdfs:label           "Weight of 100 seeds" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4601,6 +4883,7 @@
 
 <http://www.cropontology.org/rdf#CO_337:0000036>
         a                    owl:Class ;
+        rdfs:comment         "Groundnut" ;
         rdfs:label           "Seed shape" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4620,6 +4903,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000452>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Root Number" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4636,6 +4920,7 @@
 
 <http://www.cropontology.org/rdf#CO_320:0000036>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "awn color" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4652,6 +4937,7 @@
 
 <http://www.cropontology.org/rdf#CO_338:0000002>
         a                    owl:Class ;
+        rdfs:comment         "Chickpea" ;
         rdfs:label           "Pod weight" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4671,6 +4957,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000478>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Stem height" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4687,6 +4974,7 @@
 
 <http://www.cropontology.org/rdf#CO_338:0000090>
         a                    owl:Class ;
+        rdfs:comment         "Chickpea" ;
         rdfs:label           "Root volume" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4703,6 +4991,7 @@
 
 <http://www.cropontology.org/rdf#CO_339:0000135>
         a                    owl:Class ;
+        rdfs:comment         "Lentil" ;
         rdfs:label           "Pod weight" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4719,6 +5008,7 @@
 
 <http://www.cropontology.org/rdf#CO_337:0000044>
         a                    owl:Class ;
+        rdfs:comment         "Groundnut" ;
         rdfs:label           "Root diameter" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4738,6 +5028,7 @@
 
 <http://www.cropontology.org/rdf#CO_337:0000057>
         a                    owl:Class ;
+        rdfs:comment         "Groundnut" ;
         rdfs:label           "Leaf Potassium content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4757,6 +5048,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0005643>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Seed weight" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4773,6 +5065,7 @@
 
 <http://www.cropontology.org/rdf#CO_320:0000031>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "culm angle" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4789,6 +5082,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000460>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Seedling number" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4805,6 +5099,7 @@
 
 <http://www.cropontology.org/rdf#CO_321:0000164>
         a                    owl:Class ;
+        rdfs:comment         "Wheat" ;
         rdfs:label           "Winter kill damage" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4824,6 +5119,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000473>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Stalk length" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4840,6 +5136,7 @@
 
 <http://www.cropontology.org/rdf#CO_341:0000066>
         a                    owl:Class ;
+        rdfs:comment         "Pigeonpea" ;
         rdfs:label           "Leaf chlorophyll content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4859,6 +5156,7 @@
 
 <http://www.cropontology.org/rdf#CO_320:0000111>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "brown rice protein content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4881,6 +5179,7 @@
 
 <http://www.cropontology.org/rdf#CO_341:0000120>
         a                    owl:Class ;
+        rdfs:comment         "Pigeonpea" ;
         rdfs:label           "Grain weight per plot" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4897,6 +5196,7 @@
 
 <http://www.cropontology.org/rdf#CO_336:0000198>
         a                    owl:Class ;
+        rdfs:comment         "Soybean" ;
         rdfs:label           "Seed Sucrose content" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4916,6 +5216,7 @@
 
 <http://www.cropontology.org/rdf#CO_320:0000137>
         a                    owl:Class ;
+        rdfs:comment         "Rice" ;
         rdfs:label           "flag leaf width" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4932,6 +5233,7 @@
 
 <http://www.cropontology.org/rdf#CO_337:0000065>
         a                    owl:Class ;
+        rdfs:comment         "Groundnut" ;
         rdfs:label           "SPAD at harvest (10d)" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4969,6 +5271,7 @@
 
 <http://www.cropontology.org/rdf#CO_339:0000084>
         a                    owl:Class ;
+        rdfs:comment         "Lentil" ;
         rdfs:label           "Seed weight" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -4985,6 +5288,7 @@
 
 <http://www.cropontology.org/rdf#CO_334:0000481>
         a                    owl:Class ;
+        rdfs:comment         "Cassava" ;
         rdfs:label           "Stigma Color" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
@@ -5001,6 +5305,7 @@
 
 <http://www.cropontology.org/rdf#CO_340:0000242>
         a                    owl:Class ;
+        rdfs:comment         "Cowpea" ;
         rdfs:label           "Grain yield per plant" ;
         rdfs:subClassOf      <http://www.cropontology.org/rdf#plant_trait> ;
         owl:equivalentClass  [ a                   owl:Class ;
